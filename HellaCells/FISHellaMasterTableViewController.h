@@ -10,6 +10,7 @@
 
 @interface FISHellaMasterTableViewController : UITableViewController
 
+@property (nonatomic) NSString  *cellNumber;
 @property (nonatomic) NSMutableArray *oneToOneHundred;
 
 - (void)setOneToOneHundred;

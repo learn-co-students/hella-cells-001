@@ -10,4 +10,7 @@
 
 @interface FISHellaDetailViewController : UIViewController
 
+@property (nonatomic) NSString *bigNumber;
+@property (weak, nonatomic) IBOutlet UILabel *bigNumberLabel;
+
 @end

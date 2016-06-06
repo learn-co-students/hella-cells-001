@@ -7,6 +7,7 @@
 //
 
 #import "FISHellaMasterTableViewController.h"
+#import "FISHellaDetailViewController.h"
 
 @implementation FISHellaMasterTableViewController
 
@@ -44,5 +45,14 @@
     return cell;
 }
 
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    self.cellNumber = self.oneToOneHundred[indexPath.row];
+    [self performSegueWithIdentifier:@"numberDetail" sender:self];
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    FISHellaDetailViewController *HDVC = [segue destinationViewController];
+    HDVC.bigNumber = self.cellNumber;
+}
 
 @end

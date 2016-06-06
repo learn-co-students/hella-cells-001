@@ -10,4 +10,9 @@
 
 @implementation FISHellaDetailViewController
 
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    self.bigNumberLabel.text = self.bigNumber;
+}
+
 @end

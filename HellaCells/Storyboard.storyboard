@@ -29,10 +29,44 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" id="Lzx-x3-xzy"/>
+                    <connections>
+                        <segue destination="JgX-bh-aEK" kind="push" identifier="numberDetail" id="yxp-CB-ld1"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OBA-bA-H8c" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1152" y="491"/>
+        </scene>
+        <!--Hella Detail View Controller-->
+        <scene sceneID="JRZ-7c-S8P">
+            <objects>
+                <viewController id="JgX-bh-aEK" customClass="FISHellaDetailViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1Um-jZ-0as"/>
+                        <viewControllerLayoutGuide type="bottom" id="LW7-vV-1xg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="b42-k0-fpx">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5d2-r6-O5w">
+                                <rect key="frame" x="80" y="154" width="177" height="190"/>
+                                <accessibility key="accessibilityConfiguration" label="bigNumber"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="fF2-OU-sUp"/>
+                    <connections>
+                        <outlet property="bigNumberLabel" destination="5d2-r6-O5w" id="PxG-pI-ses"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rak-1c-sd8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1556" y="491"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="qqY-LC-NsZ">
