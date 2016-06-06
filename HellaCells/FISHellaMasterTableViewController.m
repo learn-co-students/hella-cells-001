@@ -14,6 +14,7 @@
     [super viewDidLoad];
     self.oneToOneHundred = [[NSMutableArray alloc] init];
     [self setOneToOneHundred];
+    self.view.accessibilityIdentifier = @"Title";
 }
 
 - (void)didReceiveMemoryWarning {
