@@ -15,6 +15,7 @@
 		728B989919EEEFEB000F274D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 728B989719EEEFEB000F274D /* LaunchScreen.xib */; };
 		AC258099A25EB4830D99815D /* libPods-HellaCellsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3326D7C1069EDA1B7A3400FE /* libPods-HellaCellsTests.a */; };
 		D93952A31D05BC0B0099AFD8 /* FISHellaMasterTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D93952A21D05BC0B0099AFD8 /* FISHellaMasterTableViewController.m */; };
+		D93952A61D05BE910099AFD8 /* FISHellaDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D93952A51D05BE910099AFD8 /* FISHellaDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		728B98A319EEEFEB000F274D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D93952A11D05BC0B0099AFD8 /* FISHellaMasterTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISHellaMasterTableViewController.h; sourceTree = "<group>"; };
 		D93952A21D05BC0B0099AFD8 /* FISHellaMasterTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISHellaMasterTableViewController.m; sourceTree = "<group>"; };
+		D93952A41D05BE910099AFD8 /* FISHellaDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISHellaDetailViewController.h; sourceTree = "<group>"; };
+		D93952A51D05BE910099AFD8 /* FISHellaDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISHellaDetailViewController.m; sourceTree = "<group>"; };
 		EBDAB0F5E981815F4CE95450 /* Pods-HellaCellsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HellaCellsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HellaCellsTests/Pods-HellaCellsTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -104,6 +107,8 @@
 				728B988819EEEFEB000F274D /* Supporting Files */,
 				D93952A11D05BC0B0099AFD8 /* FISHellaMasterTableViewController.h */,
 				D93952A21D05BC0B0099AFD8 /* FISHellaMasterTableViewController.m */,
+				D93952A41D05BE910099AFD8 /* FISHellaDetailViewController.h */,
+				D93952A51D05BE910099AFD8 /* FISHellaDetailViewController.m */,
 			);
 			path = HellaCells;
 			sourceTree = "<group>";
@@ -281,6 +286,7 @@
 				728B988E19EEEFEB000F274D /* AppDelegate.m in Sources */,
 				728B988B19EEEFEB000F274D /* main.m in Sources */,
 				D93952A31D05BC0B0099AFD8 /* FISHellaMasterTableViewController.m in Sources */,
+				D93952A61D05BE910099AFD8 /* FISHellaDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
