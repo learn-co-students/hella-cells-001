@@ -15,7 +15,6 @@
     [super viewDidLoad];
     self.oneToOneHundred = [[NSMutableArray alloc] init];
     [self setOneToOneHundred];
-    self.view.accessibilityIdentifier = @"Title";
 }
 
 - (void)didReceiveMemoryWarning {
@@ -53,6 +52,14 @@
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     FISHellaDetailViewController *HDVC = [segue destinationViewController];
     HDVC.bigNumber = self.cellNumber;
+}
+
+- (instancetype)init {
+    self = [super self];
+    if (self) {
+        self.view.accessibilityIdentifier = @"Title";
+    }
+    return self;
 }
 
 @end
